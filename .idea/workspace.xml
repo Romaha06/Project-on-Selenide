@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f861ce9-ac4b-4188-8f20-9e463a0b248c" name="Default Changelist" comment="Project on Selenide">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575112531271.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575112531271.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575112790865.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575112790865.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575274402797.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306282648.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306282648.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306293259.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306293259.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306303813.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306303813.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306524601.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306524601.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306535368.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306535368.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306545925.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306545925.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306812208.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306812208.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306822740.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306822740.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306833400.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575306833400.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575565063587.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575565063587.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575565208966.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575565208966.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575567552380.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575567552380.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575567562282.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575567562282.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575567571828.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575567571828.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568159503.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568159503.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568168470.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568168470.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568179057.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568179057.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568603087.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568603087.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568694598.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568694598.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568704082.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568704082.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568712351.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568712351.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568988540.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568988540.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568997769.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575568997769.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569006067.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569006067.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569096257.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569096257.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569105410.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569105410.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569113828.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569113828.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569338483.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569680380.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569680380.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569689613.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569689613.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569697662.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575569697662.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907108509.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907108509.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907303071.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907303071.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907461169.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907461169.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907474644.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907474644.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907712376.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575907712376.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908006612.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908118170.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908118170.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908291280.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908291280.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908301319.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908319820.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908319820.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908363745.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908363745.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908368784.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908368784.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908380564.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908380564.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908385585.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908385585.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908396843.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908396843.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908401797.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908401797.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908413111.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908413111.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908871301.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908875525.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908963493.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908963493.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908968646.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908968646.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908979541.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908979541.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908984360.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908984360.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908997110.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575908997110.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909049319.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909049319.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909054429.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909054429.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909066997.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909066997.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909071907.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909071907.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909084984.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909084984.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909089894.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909089894.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909103106.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909103106.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909108130.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909108130.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909120564.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909120564.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909125522.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909125522.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909139045.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909139045.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909143806.11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909143806.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909155547.12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909155547.12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909160366.13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909160366.13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909173407.14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909173407.14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909178268.15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909178268.15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909194142.16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909194142.16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909199084.17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909199084.17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909210436.18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909210436.18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909215502.19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909215502.19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909227273.20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909227273.20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909232288.21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909232288.21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909243879.22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909243879.22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909248731.23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909248731.23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909260271.24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909260271.24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909265102.25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909265102.25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909278160.26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909278160.26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909283091.27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909283091.27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909295486.28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909295486.28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909300259.29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909300259.29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909311945.30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909311945.30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909316804.31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575909316804.31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919538291.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919538291.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919550251.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919550251.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919661337.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919661337.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919676322.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575919676322.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920346929.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920346929.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920464313.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920464313.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920479741.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920479741.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920499453.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920499453.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920516421.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575920516421.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575923390214.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575923390214.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575923586326.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1575923586326.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321020481.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321020481.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321149172.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321149172.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321256957.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321256957.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321413768.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321413768.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321518906.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321518906.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321620803.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321620803.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321872247.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321872247.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321895143.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321895143.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321916103.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576321916103.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576918377350.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576918377350.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576918397629.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576918397629.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576918417797.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1576918417797.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577127854484.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577127854484.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536427725.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536427725.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536448386.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536448386.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536468174.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536468174.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536511947.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536511947.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536543228.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536543228.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536565618.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536565618.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536584549.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536584549.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536617991.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536617991.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536647436.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536647436.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536662270.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536662270.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536680158.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536680158.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536694416.11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536694416.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536813739.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536813739.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536834525.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536834525.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536853598.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577536853598.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537166794.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537166794.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537187240.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537187240.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537207853.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537207853.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537242911.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537242911.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537278782.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537278782.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537297708.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537297708.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537315394.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537315394.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537350355.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537350355.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537378177.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537378177.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537392736.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537392736.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537411368.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537411368.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537426518.11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537426518.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537947023.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537947023.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537956376.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537956376.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537968816.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537968816.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537987361.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577537987361.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538001158.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538001158.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538012433.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538012433.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538031805.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538031805.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538033708.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538033708.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538047584.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538047584.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538067117.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538067117.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538081480.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577538081480.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972201357.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972201357.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972452456.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972452456.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972544376.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972544376.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972831319.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577972831319.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577973202456.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577973202456.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577973533647.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577973533647.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577974459043.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577974459043.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577975787425.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1577975787425.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ListingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPageTyres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SearchFromCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SearchFromMoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SortingСheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestAddToBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestGrayBtn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTyresSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTyresSelectorFromListing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/BasketPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/ListingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/MainPageTyres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/ProductPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/SearchFromCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/SearchFromMoto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SortingСheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestAddToBasket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestGrayBtn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestTyresSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestTyresSelectorFromListing.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Idea project\Tyres_selenide\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UKY7sHOUpSklnnxzluHTsltwSq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTTP-API" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestAddToBasket.addToBasketFromBlockTop">
+    <configuration name="D:/Idea project/Tyres_selenide/TestNG.xml" type="TestNG" nameIsGenerated="true">
+      <module name="Tyres_selenide" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingСheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project-on-Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SortingСheck" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingСheck.checkSortingByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project-on-Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SortingСheck" />
+      <option name="METHOD_NAME" value="checkSortingByPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddToBasket" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project-on-Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddToBasket" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddToBasket.addToBasketFromBlockTop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project-on-Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAddToBasket" />
+      <option name="METHOD_NAME" value="addToBasketFromBlockTop" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCollection.test" type="TestNG" nameIsGenerated="true">
+      <module name="Tyres_selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCollection" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTyresSelectorFromListing.checkingTireSelectorInListing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Tyres_selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTyresSelectorFromListing" />
+      <option name="METHOD_NAME" value="checkingTireSelectorInListing" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestAddToBasket.addToBasketFromBlockTop" />
+        <item itemvalue="TestNG.TestAddToBasket" />
+        <item itemvalue="TestNG.SortingСheck.checkSortingByPrice" />
+        <item itemvalue="TestNG.SortingСheck" />
+        <item itemvalue="TestNG.TestTyresSelectorFromListing.checkingTireSelectorInListing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f861ce9-ac4b-4188-8f20-9e463a0b248c" name="Default Changelist" comment="" />
+      <created>1575106589881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575106589881</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Selenide version_1">
+      <created>1577977632033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577977632033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenide version_1" />
+    <MESSAGE value="Project on Selenide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project on Selenide" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="0" width="596" height="728" key="#D:/Idea_project/Tyres_selenide/TestNG.xml" timestamp="1577127571358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#D:/Idea_project/Tyres_selenide/TestNG.xml/0.0.1366.728@0.0.1366.728" timestamp="1577127571358" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577128013358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577128013358" />
+    <state x="2131" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1577536006822">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2131" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1577536006822" />
+    <state x="2122" y="380" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577534814989">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2122" y="380" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1577534814989" />
+    <state x="1923" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575918327322">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1923" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1575918327322" />
+    <state x="1021" y="63" key="#xdebugger.evaluate" timestamp="1575564845602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="1021" y="63" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1575564845602" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1577980668070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577980668070" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1577522266501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577522266501" />
+    <state width="1323" height="164" key="GridCell.Tab.0.bottom" timestamp="1577979943958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577979943958" />
+    <state width="1877" height="371" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1577540210803" />
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577128027227" />
+    <state width="1323" height="164" key="GridCell.Tab.0.center" timestamp="1577979943958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577979943958" />
+    <state width="1877" height="371" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1577540210802" />
+    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577128027227" />
+    <state width="1323" height="164" key="GridCell.Tab.0.left" timestamp="1577979943958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577979943958" />
+    <state width="1877" height="371" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1577540210802" />
+    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577128027226" />
+    <state width="1323" height="164" key="GridCell.Tab.0.right" timestamp="1577979943958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577979943958" />
+    <state width="1877" height="371" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1577540210802" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577128027227" />
+    <state width="1877" height="443" key="GridCell.Tab.1.bottom" timestamp="1576321355614">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="443" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1576321355614" />
+    <state width="1323" height="287" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575909397382" />
+    <state width="1877" height="443" key="GridCell.Tab.1.center" timestamp="1576321355614">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="443" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1576321355614" />
+    <state width="1323" height="287" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1575909397382" />
+    <state width="1877" height="443" key="GridCell.Tab.1.left" timestamp="1576321355614">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="443" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1576321355614" />
+    <state width="1323" height="287" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1575909397382" />
+    <state width="1877" height="443" key="GridCell.Tab.1.right" timestamp="1576321355614">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="443" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1576321355614" />
+    <state width="1323" height="287" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575909397382" />
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2" timestamp="1577977679452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577977679452" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1575275221797">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1575275221797" />
+  </component>
+</project>
