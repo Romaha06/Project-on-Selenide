@@ -1,6 +1,5 @@
 import Pages.Help;
 import Pages.ListingPage;
-import com.codeborne.selenide.Condition;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.*;

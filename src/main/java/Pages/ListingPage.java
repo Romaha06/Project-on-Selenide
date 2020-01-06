@@ -21,21 +21,21 @@ public class ListingPage {
     Help help = new Help();
 
     private SelenideElement nextPage = $x("//a[@rel='next']");
-    public SelenideElement outOfStock = $x("//div[@class='vers_box grey']");
-    public SelenideElement btnAddBasket = $x("//div[@class='basket_btn button active_red_button ']");
+    private SelenideElement outOfStock = $x("//div[@class='vers_box grey']");
+    private SelenideElement btnAddBasket = $x("//div[@class='basket_btn button active_red_button ']");
     public SelenideElement basket = $x("//a[@data-gac='Go_to_basket']");
     public SelenideElement prodPageLink = $x("//a[@class='prod_link']");
-    public ElementsCollection labelPrice = $$x("//div[@class='price']");
+    private ElementsCollection labelPrice = $$x("//div[@class='price']");
     public SelenideElement listing = $x("//div[@class='listing_items js-listing-wrap']");
     public SelenideElement filterBrand = $x("//form[@id='list-filter-form']");
-    public SelenideElement selectorTyresFromListing = $("#tyres_search_form");
-    public SelenideElement listingSelectSeason = $x("//select[@name='Season']");
-    public SelenideElement listingSelectWidth = $x("//select[@name='Width']");
-    public SelenideElement listingSelectHeight = $x("//select[@name='CrossSections']");
-    public SelenideElement listingSelectDiameter = $x("//select[@name='Size']");
-    public SelenideElement popupValidationError = $x("//div[@class='pp_not_found']");
-    public SelenideElement closePopupValidationError = $x("//*[@id='popup_car_tires_not_found']/div/a");
-    public SelenideElement btnSearchFromListing = $x("//a[@id='tyres_search']");
+    private SelenideElement selectorTyresFromListing = $("#tyres_search_form");
+    private SelenideElement listingSelectSeason = $x("//select[@name='Season']");
+    private SelenideElement listingSelectWidth = $x("//select[@name='Width']");
+    private SelenideElement listingSelectHeight = $x("//select[@name='CrossSections']");
+    private SelenideElement listingSelectDiameter = $x("//select[@name='Size']");
+    private SelenideElement popupValidationError = $x("//div[@class='pp_not_found']");
+    private SelenideElement closePopupValidationError = $x("//*[@id='popup_car_tires_not_found']/div/a");
+    private SelenideElement btnSearchFromListing = $x("//a[@id='tyres_search']");
 
 
     public void checkingTireSelectorInListing() {
