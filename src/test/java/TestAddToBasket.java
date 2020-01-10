@@ -1,7 +1,4 @@
-import Pages.Help;
-import Pages.ListingPage;
-import Pages.MainPageTyres;
-import Pages.ProductPage;
+import Pages.*;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -11,6 +8,7 @@ public class TestAddToBasket {
     MainPageTyres mainPageTyres = new MainPageTyres();
     ListingPage listingPage = new ListingPage();
     ProductPage productPage = new ProductPage();
+    SetUp setUp = new SetUp();
 
     @DataProvider(name = "data-provider")
     public Object[][] dataProviderData() {
@@ -23,21 +21,21 @@ public class TestAddToBasket {
 
     @Test(groups = {"Regression"})
     public void addToBasketFromBlockTop() {
-        help.openUrl("https://reifen.pkwteile.de/");
+        setUp.openUrl("https://reifen.pkwteile.de/");
         help.closePopup(help.btnCookies);
         mainPageTyres.addToBasketFromBlockTop();
     }
 
     @Test(groups = {"Regression"}, dataProvider = "data-provider")
     public void addToBasketFromListing(String url) {
-        help.openUrl(url);
+        setUp.openUrl(url);
         help.closePopup(help.btnCookies);
         listingPage.addToBasket();
     }
 
     @Test(groups = {"Regression"},dataProvider = "data-provider")
     public void addToBasketFromProdPage(String url){
-        help.openUrl(url);
+        setUp.openUrl(url);
         help.closePopup(help.btnCookies);
         productPage.addToBasketFromProdPage();
     }
