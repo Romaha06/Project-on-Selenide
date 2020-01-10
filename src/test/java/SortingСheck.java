@@ -1,5 +1,6 @@
 import Pages.Help;
 import Pages.ListingPage;
+import Pages.SetUp;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -7,6 +8,7 @@ public class SortingСheck {
 
     Help help = new Help();
     ListingPage listingPage = new ListingPage();
+    SetUp setUp = new SetUp();
 
 
     @DataProvider(name = "data-provider")
@@ -20,7 +22,7 @@ public class SortingСheck {
 
     @Test(groups = {"Regression"},dataProvider = "data-provider")
     public void checkSortingByPrice(String url){
-        help.openUrl(url);
+        setUp.openUrl(url);
         listingPage.checkSortingByPrice(true);
     }
 }

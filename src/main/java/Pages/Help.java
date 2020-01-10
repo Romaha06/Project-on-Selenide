@@ -17,13 +17,6 @@ public class Help {
 
     public SelenideElement btnCookies = $x("//div[@class='block-cookies__button']");
 
-    public void openUrl(String url) {
-        Configuration.startMaximized = true;
-        Configuration.timeout = 10000;
-//        Configuration.pageLoadStrategy = "none";
-        open(url);
-        System.out.println("Page was opened.");
-    }
 
     public boolean checkElementIsDisplayed(SelenideElement element) {
         try {

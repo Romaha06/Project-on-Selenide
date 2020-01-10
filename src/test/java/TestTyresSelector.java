@@ -9,11 +9,12 @@ public class TestTyresSelector {
     ListingPage listingPage = new ListingPage();
     SearchFromCar searchFromCar = new SearchFromCar();
     SearchFromMoto searchFromMoto = new SearchFromMoto();
+    SetUp setUp = new SetUp();
 
 
     @Test(groups = {"Regression"})
     public void searchPKW() {
-        help.openUrl("https://reifen.pkwteile.de/");
+        setUp.openUrl("https://reifen.pkwteile.de/");
         help.closePopup(help.btnCookies);
         mainPageTyres.clickMenuBtnPKW();
         mainPageTyres.formSeasonWinter();
@@ -25,7 +26,7 @@ public class TestTyresSelector {
 
     @Test(groups = {"Regression"})
     public void searchSUV() {
-        help.openUrl("https://reifen.pkwteile.de/");
+        setUp.openUrl("https://reifen.pkwteile.de/");
         help.closePopup(help.btnCookies);
         mainPageTyres.clickMenuBtnSUV();
         mainPageTyres.formSeasonSummer();
@@ -37,7 +38,7 @@ public class TestTyresSelector {
 
     @Test(groups = {"Regression"})
     public void searchLLKW() {
-        help.openUrl("https://reifen.pkwteile.de/");
+        setUp.openUrl("https://reifen.pkwteile.de/");
         help.closePopup(help.btnCookies);
         mainPageTyres.clickMenuBtnLLKW();
         mainPageTyres.formSeasonWinter();
@@ -49,7 +50,7 @@ public class TestTyresSelector {
 
     @Test(groups = {"Regression"})
     public void searchMoto() {
-        help.openUrl("https://reifen.pkwteile.de/");
+        setUp.openUrl("https://reifen.pkwteile.de/");
         help.closePopup(help.btnCookies);
         mainPageTyres.clickMenuBtnMoto();
         mainPageTyres.formSeasonWinter();
