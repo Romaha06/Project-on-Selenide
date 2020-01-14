@@ -1,6 +1,8 @@
-import Pages.Help;
-import Pages.ListingPage;
-import Pages.SetUp;
+package TestsForTires;
+
+import PagesPKW.Help;
+import PagesPKW.ListingPage;
+import PagesPKW.SetUp;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
