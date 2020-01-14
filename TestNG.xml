@@ -8,11 +8,12 @@
             </run>
         </groups>
         <classes>
-            <class name="TestTyresSelector"/>
-            <class name="TestAddToBasket"/>
-            <class name="TestGrayBtn"/>
-            <class name="SortingСheck"/>
-            <class name="TestTyresSelectorFromListing"/>
+            <class name="TestsForTires.TestTiresSelector"/>
+            <class name="TestsForTires.TestAddToBasket"/>
+            <class name="TestsForTires.TestGrayBtn"/>
+            <class name="TestsForTires.SortingСheck"/>
+            <class name="TestsForTires.TestTiresSelectorFromListing"/>
+            <class name="TestsForTires.TestBlockTiresTop"/>
         </classes>
     </test>
 </suite>

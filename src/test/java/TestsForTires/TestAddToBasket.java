@@ -1,4 +1,6 @@
-import Pages.*;
+package TestsForTires;
+
+import PagesPKW.*;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

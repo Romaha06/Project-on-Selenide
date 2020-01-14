@@ -1,4 +1,4 @@
-package Pages;
+package PagesPKW;
 
 import com.codeborne.selenide.SelenideElement;
 

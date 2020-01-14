@@ -1,14 +1,12 @@
-package Pages;
+package PagesPKW;
 
+
+import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.ex.UIAssertionError;
-import org.openqa.selenium.TimeoutException;
-import org.testng.Assert;
 
+import static com.codeborne.selenide.CollectionCondition.*;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverRunner.url;
-import static org.testng.Assert.fail;
 
 
 public class MainPageTyres {
@@ -26,6 +24,52 @@ public class MainPageTyres {
     private SelenideElement selectSeasonsAll = $x("//div[@class='season-tyre__label--all-weather']");
     private SelenideElement btnTyresSearch = $x("//a[@id='tyres_search']");
     private SelenideElement btnAddBasketTop = $x("//div[@class='basket_btn button active_red_button']");
+    private SelenideElement tiresBlockTop = $x("//div[@class='car_tires_toppop']");
+    private SelenideElement bestsellerTire = $x("//a[@class='inset active']");
+    private SelenideElement popularTireSize = $x("//a[@class='inset']");
+    private SelenideElement size_1 = $x("//span[text()='195/65 R15']");
+    private SelenideElement size_2 = $x("//span[text()='205/55 R16']");
+    private SelenideElement size_3 = $x("//span[text()='175/65 R14']");
+    private SelenideElement size_4 = $x("//span[text()='185/55 R15']");
+    private SelenideElement size_5 = $x("//span[text()='185/65 R14']");
+    private SelenideElement bestSellers = $x("//a[@class='inset active']");
+    private ElementsCollection titleParameters = $$x("//*[@class='car_tires_toppop']/div[3]//*[@class='options']");
+    private ElementsCollection titleParametersBestSellers = $$x("//*[@class='car_tires_toppop']/div[2]//*[@class='options']");
+
+
+    public void blockCheckBestSellers() {
+        System.out.println("Scroll to Best Sellers");
+        bestSellers.scrollTo();
+        ElementsCollection title = (titleParametersBestSellers);
+        System.out.println("Compare the number of elements");
+        titleParametersBestSellers.shouldHave(size(5));
+    }
+
+
+    public void blockCheckPopularTireSizes() {
+        System.out.println("click on Popular tire sizes");
+        popularTireSize.click();
+        System.out.println("Click on size 195/65 R15");
+        size_1.click();
+        ElementsCollection title = (titleParameters);
+        titleParameters.shouldHave(size(5));
+
+        System.out.println("Click on size 205/55 R16");
+        size_2.click();
+        titleParameters.shouldHave(size(5));
+
+        System.out.println("Click on size 175/65 R14");
+        size_3.click();
+        titleParameters.shouldHave(size(5));
+
+        System.out.println("Click on size 185/55 R15");
+        size_4.click();
+        titleParameters.shouldHave(size(5));
+
+        System.out.println("Click on size 185/65 R14");
+        size_5.click();
+        titleParameters.shouldHave(size(5));
+    }
 
 
     public void addToBasketFromBlockTop() {

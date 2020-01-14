@@ -1,8 +1,10 @@
-import Pages.*;
+package TestsForTires;
+
+import PagesPKW.*;
 import com.codeborne.selenide.Condition;
 import org.testng.annotations.Test;
 
-public class TestTyresSelector {
+public class TestTiresSelector {
 
     Help help = new Help();
     MainPageTyres mainPageTyres = new MainPageTyres();
@@ -10,6 +12,7 @@ public class TestTyresSelector {
     SearchFromCar searchFromCar = new SearchFromCar();
     SearchFromMoto searchFromMoto = new SearchFromMoto();
     SetUp setUp = new SetUp();
+
 
 
     @Test(groups = {"Regression"})

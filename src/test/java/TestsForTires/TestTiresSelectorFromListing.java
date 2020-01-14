@@ -1,11 +1,13 @@
-import Pages.Help;
-import Pages.ListingPage;
-import Pages.SetUp;
+package TestsForTires;
+
+import PagesPKW.Help;
+import PagesPKW.ListingPage;
+import PagesPKW.SetUp;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.*;
 
-public class TestTyresSelectorFromListing {
+public class TestTiresSelectorFromListing {
 
     Help help = new Help();
     ListingPage listingPage = new ListingPage();
