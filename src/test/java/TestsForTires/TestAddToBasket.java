@@ -16,8 +16,7 @@ public class TestAddToBasket {
     public Object[][] dataProviderData() {
         return new Object[][]{
                 {"https://reifen.pkwteile.de/sommerreifen"},
-                {"https://reifen.pkwteile.de/winterreifen"},
-                {"https://reifen.pkwteile.de/ganzjahresreifen"}
+
         };
     }
 
