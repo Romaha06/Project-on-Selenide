@@ -31,26 +31,24 @@ public class MainPageTyres {
     private SelenideElement size_3 = $x("//span[text()='175/65 R14']");
     private SelenideElement size_4 = $x("//span[text()='185/55 R15']");
     private SelenideElement size_5 = $x("//span[text()='185/65 R14']");
-    private SelenideElement bestSellers = $x("//a[@class='inset active']");
+    private SelenideElement bestSellers = $x("//a[@data-attr-type='top_products']");
     private ElementsCollection titleParameters = $$x("//*[@class='car_tires_toppop']/div[3]//*[@class='options']");
     private ElementsCollection titleParametersBestSellers = $$x("//*[@class='car_tires_toppop']/div[2]//*[@class='options']");
 
 
     public void blockCheckBestSellers() {
         System.out.println("Scroll to Best Sellers");
-        bestSellers.scrollTo();
-        ElementsCollection title = (titleParametersBestSellers);
+        bestSellers.click();
         System.out.println("Compare the number of elements");
         titleParametersBestSellers.shouldHave(size(5));
     }
 
 
     public void blockCheckPopularTireSizes() {
-        System.out.println("click on Popular tire sizes");
+        System.out.println("Click on Popular tire sizes");
         popularTireSize.click();
         System.out.println("Click on size 195/65 R15");
         size_1.click();
-        ElementsCollection title = (titleParameters);
         titleParameters.shouldHave(size(5));
 
         System.out.println("Click on size 205/55 R16");
