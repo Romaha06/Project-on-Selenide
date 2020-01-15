@@ -6,7 +6,7 @@ import PagesPKW.SetUp;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class SortingСheck {
+public class SortingCheck {
 
     Help help = new Help();
     ListingPage listingPage = new ListingPage();

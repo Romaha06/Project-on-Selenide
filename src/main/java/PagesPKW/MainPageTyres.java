@@ -25,7 +25,6 @@ public class MainPageTyres {
     private SelenideElement btnTyresSearch = $x("//a[@id='tyres_search']");
     private SelenideElement btnAddBasketTop = $x("//div[@class='basket_btn button active_red_button']");
     private SelenideElement tiresBlockTop = $x("//div[@class='car_tires_toppop']");
-    private SelenideElement bestsellerTire = $x("//a[@class='inset active']");
     private SelenideElement popularTireSize = $x("//a[@class='inset']");
     private SelenideElement size_1 = $x("//span[text()='195/65 R15']");
     private SelenideElement size_2 = $x("//span[text()='205/55 R16']");

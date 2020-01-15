@@ -11,7 +11,7 @@
             <class name="TestsForTires.TestTiresSelector"/>
             <class name="TestsForTires.TestAddToBasket"/>
             <class name="TestsForTires.TestGrayBtn"/>
-            <class name="TestsForTires.SortingСheck"/>
+            <class name="TestsForTires.SortingCheck"/>
             <class name="TestsForTires.TestTiresSelectorFromListing"/>
             <class name="TestsForTires.TestBlockTiresTop"/>
         </classes>
