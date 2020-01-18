@@ -15,13 +15,13 @@ public class SearchFromCar {
     public void width() {
         System.out.println("Choose from Width.");
         selectWidth.click();
-        $x("//option[@value='205']").click();
+        $x("//option[@value='215']").click();
     }
 
     public void height() {
         System.out.println("Choose from Height.");
         selectHeight.click();
-        $x("//option[@value='55']").click();
+        $x("//option[@value='65']").click();
     }
 
     public void size() {

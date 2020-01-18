@@ -23,7 +23,6 @@ public class TestTiresSelector {
         mainPageTyres.formSeasonWinter();
         searchFromCar.selectionOfParameters();
         mainPageTyres.search();
-        help.checkPageURL("https://reifen.pkwteile.de/winterreifen/205-55-r16");
         listingPage.listing.shouldBe(Condition.visible);
     }
 
@@ -35,7 +34,6 @@ public class TestTiresSelector {
         mainPageTyres.formSeasonSummer();
         searchFromCar.selectionOfParameters();
         mainPageTyres.search();
-        help.checkPageURL("https://reifen.pkwteile.de/offroadreifen/sommerreifen/205-55-r16");
         listingPage.listing.shouldBe(Condition.visible);
     }
 
@@ -47,7 +45,6 @@ public class TestTiresSelector {
         mainPageTyres.formSeasonWinter();
         searchFromCar.selectionOfParameters();
         mainPageTyres.search();
-        help.checkPageURL("https://reifen.pkwteile.de/transporterreifen/winterreifen/205-55-r16");
         listingPage.listing.shouldBe(Condition.visible);
     }
 
@@ -59,7 +56,6 @@ public class TestTiresSelector {
         mainPageTyres.formSeasonWinter();
         searchFromMoto.selectionOfParametersMoto();
         mainPageTyres.search();
-        help.checkPageURL("https://reifen.pkwteile.de/motorradreifen/winterreifen/120-70-r14");
         listingPage.listing.shouldBe(Condition.visible);
     }
 }
