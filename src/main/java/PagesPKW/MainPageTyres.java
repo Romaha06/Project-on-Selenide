@@ -3,7 +3,6 @@ package PagesPKW;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-
 import static com.codeborne.selenide.CollectionCondition.*;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -32,12 +31,12 @@ public class MainPageTyres {
     private SelenideElement size_4 = $x("//span[text()='185/55 R15']");
     private SelenideElement size_5 = $x("//span[text()='185/65 R14']");
     private SelenideElement bestSellers = $x("//a[@data-attr-type='top_products']");
-    private ElementsCollection titleParameters = $$x("//*[@class='car_tires_toppop']/div[3]//*[@class='options']");
+    private ElementsCollection titleParameters = $$x("//div[@class='car_tires_toppop']/div[3]//div[@class='options']");
     private ElementsCollection titleParametersBestSellers = $$x("//*[@class='car_tires_toppop']/div[2]//*[@class='options']");
 
 
     public void blockCheckBestSellers() {
-        System.out.println("Scroll to Best Sellers");
+        System.out.println("Click on Best Sellers");
         bestSellers.click();
         System.out.println("Compare the number of elements");
         titleParametersBestSellers.shouldHave(size(5));
@@ -71,9 +70,10 @@ public class MainPageTyres {
 
     public void addToBasketFromBlockTop() {
         System.out.println("Add item to basket from block top");
-        $(btnAddBasketTop).click();
-        $(listingPage.basket).click();
-        $(basketPage.priceInBasket).shouldBe(visible);
+        btnAddBasketTop.click();
+        listingPage.basket.click();
+        basketPage.priceInBasket.shouldBe(visible);
+
     }
 
 
