@@ -16,15 +16,16 @@ public class SortingCheck {
     @DataProvider(name = "data-provider")
     public Object[][] dataProviderData() {
         return new Object[][]{
-                {"https://reifen.pkwteile.de/winterreifen/205-55-r16"},
-                {"https://reifen.pkwteile.de/winterreifen/205-55-r16?page=2"},
-                {"https://reifen.pkwteile.de/winterreifen/205-55-r16?page=3"}
+                {"https://reifen.pkwteile.de/sommerreifen"},
+                {"https://reifen.pkwteile.de/winterreifen"},
+                {"https://reifen.pkwteile.de/ganzjahresreifen"}
         };
     }
 
     @Test(groups = {"Regression"},dataProvider = "data-provider")
     public void checkSortingByPrice(String url){
         setUp.openUrl(url);
+        help.closePopup(help.btnCookies);
         listingPage.checkSortingByPrice(true);
     }
 }
