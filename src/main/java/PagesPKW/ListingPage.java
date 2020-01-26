@@ -27,12 +27,15 @@ public class ListingPage {
     public SelenideElement prodPageLink = $x("//a[@class='prod_link']");
     private ElementsCollection labelPrice = $$x("//div[@class='price']");
     public SelenideElement listing = $x("//div[@class='listing_items js-listing-wrap']");
-    public SelenideElement filterBrand = $x("//form[@id='list-filter-form']");
-    private SelenideElement selectorTyresFromListing = $("#tyres_search_form");
-    private SelenideElement listingSelectSeason = $x("//select[@name='Season']");
+    private SelenideElement filterBrand = $x("//form[@id='list-filter-form']");
+
+    private SelenideElement selectorTyresFromListing = $x("//div[@class='mainblock-search__sizes']");
+    private SelenideElement resetSelector = $x("//a[@title='Reset filter']");
+
     private SelenideElement listingSelectWidth = $x("//select[@name='Width']");
     private SelenideElement listingSelectHeight = $x("//select[@name='CrossSections']");
     private SelenideElement listingSelectDiameter = $x("//select[@name='Size']");
+
     private SelenideElement popupValidationError = $x("//div[@class='pp_not_found']");
     private SelenideElement closePopupValidationError = $x("//*[@id='popup_car_tires_not_found']/div/a");
     private SelenideElement btnSearchFromListing = $x("//a[@id='tyres_search']");
@@ -40,8 +43,6 @@ public class ListingPage {
 
     public void checkingTireSelectorInListing() {
         System.out.println("Choose the parameters of the Season, Width, Height and Diameter");
-        listingSelectSeason.click();
-        $x("//option[@value='summer']").click();
         listingSelectWidth.click();
         $x("//option[@value='255']").click();
         listingSelectHeight.click();
@@ -52,24 +53,17 @@ public class ListingPage {
     }
 
     public void checkPopupValidationError() {
-        System.out.println("Choose a season");
+        System.out.println("Check for selector");
         selectorTyresFromListing.shouldBe(Condition.visible);
-        listingSelectSeason.click();
-        $x("//option[@value='allseason']").click();
-        btnSearchFromListing.click();
-        popupValidationError.shouldBe(visible);
-        closePopupValidationError.click();
-        System.out.println("Choose a season and Widht");
-        listingSelectSeason.click();
-        $x("//option[@value='allseason']").click();
+        System.out.println("Reset selector");
+        resetSelector.click();
+        System.out.println("Choose a Width");
         listingSelectWidth.click();
         $x("//option[@value='205']").click();
         btnSearchFromListing.click();
         popupValidationError.shouldBe(visible);
         closePopupValidationError.click();
-        System.out.println("Choose a season and Widht and Height");
-        listingSelectSeason.click();
-        $x("//option[@value='allseason']").click();
+        System.out.println("Choose a Width and Height");
         listingSelectWidth.click();
         $x("//option[@value='205']").click();
         listingSelectHeight.click();

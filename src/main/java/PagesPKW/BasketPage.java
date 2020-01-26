@@ -16,6 +16,7 @@ public class BasketPage {
 
 
     public void deleteFromBasket(){
+        System.out.println("Remove item from basket");
         delBtn.click();
         delPopup.shouldBe(Condition.visible);
         submitYes.click();

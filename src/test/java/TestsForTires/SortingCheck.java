@@ -6,7 +6,7 @@ import PagesPKW.SetUp;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class SortingCheck {
+public class SortingCheck extends BaseTest{
 
     Help help = new Help();
     ListingPage listingPage = new ListingPage();

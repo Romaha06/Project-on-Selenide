@@ -1,7 +1,6 @@
 package PagesPKW;
 
 import com.codeborne.selenide.Configuration;
-
 import static com.codeborne.selenide.Selenide.open;
 
 public class SetUp {
