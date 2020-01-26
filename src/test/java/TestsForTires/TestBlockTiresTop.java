@@ -5,7 +5,7 @@ import PagesPKW.MainPageTyres;
 import PagesPKW.SetUp;
 import org.testng.annotations.Test;
 
-public class TestBlockTiresTop {
+public class TestBlockTiresTop extends BaseTest{
 
     SetUp setUp = new SetUp();
     Help help = new Help();

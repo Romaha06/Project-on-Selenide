@@ -4,7 +4,7 @@ import PagesPKW.*;
 import com.codeborne.selenide.Condition;
 import org.testng.annotations.Test;
 
-public class TestTiresSelector {
+public class TestTiresSelector extends BaseTest{
 
     Help help = new Help();
     MainPageTyres mainPageTyres = new MainPageTyres();
@@ -13,6 +13,22 @@ public class TestTiresSelector {
     SearchFromMoto searchFromMoto = new SearchFromMoto();
     SetUp setUp = new SetUp();
 
+
+
+    @Test(groups = {"Regression"})
+    public void checkingSelectorErrorTooltip(){
+        setUp.openUrl("https://tyres.buycarparts.co.uk/");
+        help.closePopup(help.btnCookies);
+        mainPageTyres.checkingSelectorErrorTooltip();
+    }
+
+
+    @Test(groups = {"Regression"})
+    public void checkingSelectorFromCar() {
+        setUp.openUrl("https://tyres.buycarparts.co.uk/");
+        help.closePopup(help.btnCookies);
+        mainPageTyres.checkingSelectorFromCar();
+    }
 
 
     @Test(groups = {"Regression"})
@@ -26,6 +42,7 @@ public class TestTiresSelector {
         listingPage.listing.shouldBe(Condition.visible);
     }
 
+
     @Test(groups = {"Regression"})
     public void searchSUV() {
         setUp.openUrl("https://reifen.pkwteile.de/");
@@ -37,6 +54,7 @@ public class TestTiresSelector {
         listingPage.listing.shouldBe(Condition.visible);
     }
 
+
     @Test(groups = {"Regression"})
     public void searchLLKW() {
         setUp.openUrl("https://reifen.pkwteile.de/");
@@ -47,6 +65,7 @@ public class TestTiresSelector {
         mainPageTyres.search();
         listingPage.listing.shouldBe(Condition.visible);
     }
+
 
     @Test(groups = {"Regression"})
     public void searchMoto() {

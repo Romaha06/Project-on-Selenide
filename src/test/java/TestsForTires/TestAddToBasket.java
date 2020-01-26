@@ -5,7 +5,7 @@ import com.codeborne.selenide.Condition;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class TestAddToBasket {
+public class TestAddToBasket extends BaseTest{
 
     Help help = new Help();
     MainPageTyres mainPageTyres = new MainPageTyres();

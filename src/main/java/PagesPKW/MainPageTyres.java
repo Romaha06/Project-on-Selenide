@@ -14,28 +14,86 @@ public class MainPageTyres {
     BasketPage basketPage = new BasketPage();
 
 
-    private SelenideElement btnPKW = $x("//img[@alt='PKW']");
-    private SelenideElement btnSUV = $x("//img[@alt='Offroad/SUV']");
-    private SelenideElement btnLLKW = $x("//img[@alt='Transporter']");
-    private SelenideElement btnMotoTyres = $x("//img[@alt='Motorrad']");
+    private SelenideElement btnPKW = $x("//img[@class='tabs__icon__pkw']");
+    private SelenideElement btnSUV = $x("//img[@class='tabs__icon__suv']");
+    private SelenideElement btnLLKW = $x("//img[@class='tabs__icon__llkw']");
+    private SelenideElement btnMotoTyres = $x("//img[@class='tabs__icon__moto']");
+
     private SelenideElement selectSeasonsWinter = $x("//div[@class='season-tyre__label--winter']");
     private SelenideElement selectSeasonsSummer = $x("//div[@class='season-tyre__label--summer']");
     private SelenideElement selectSeasonsAll = $x("//div[@class='season-tyre__label--all-weather']");
     private SelenideElement btnTyresSearch = $x("//a[@id='tyres_search']");
+
     private SelenideElement btnAddBasketTop = $x("//div[@class='basket_btn button active_red_button']");
-    private SelenideElement tiresBlockTop = $x("//div[@class='car_tires_toppop']");
-    private SelenideElement popularTireSize = $x("//a[@class='inset']");
-    private SelenideElement size_1 = $x("//span[text()='195/65 R15']");
-    private SelenideElement size_2 = $x("//span[text()='205/55 R16']");
+
+    private SelenideElement size_1 = $x("//span[text()='205/55 R16']");
+    private SelenideElement size_2 = $x("//span[text()='195/65 R15']");
     private SelenideElement size_3 = $x("//span[text()='175/65 R14']");
     private SelenideElement size_4 = $x("//span[text()='185/55 R15']");
     private SelenideElement size_5 = $x("//span[text()='185/65 R14']");
+    private SelenideElement tiresBlockTop = $x("//div[@class='car_tires_toppop']");
+    private SelenideElement popularTireSize = $x("//a[@class='inset']");
     private SelenideElement bestSellers = $x("//a[@data-attr-type='top_products']");
+
     private ElementsCollection titleParameters = $$x("//div[@class='car_tires_toppop']/div[3]//div[@class='options']");
-    private ElementsCollection titleParametersBestSellers = $$x("//*[@class='car_tires_toppop']/div[2]//*[@class='options']");
+    private ElementsCollection titleParametersBestSellers = $$x("//div[@class='car_tires_toppop']/div[2]//div[@class='options']");
+
+    private SelenideElement carMark = $x("//select[@name='maker_id']");
+    private SelenideElement carModel = $x("//select[@name='model_id']");
+    private SelenideElement carModification = $x("//select[@name='car_id']");
+    private SelenideElement btnCarSearch = $x("//div[@class='mainblock-search__car ']//div[5]//span[1]");
+    private SelenideElement selectorErrorTooltip = $x("//div[@class='popup-error-select validation-tooltip']");
+
+
+    public void checkingSelectorFromCar() {
+        System.out.println("Choosing a make of car");
+        carMark.click();
+        $x("//option[@value='121']").click();//VW
+
+        System.out.println("Choosing a model of car");
+        carModel.click();
+        $x("//option[@value='10200']").click();//CC (358) (11/2011 - ...)
+
+        System.out.println("Choosing a modification of car");
+        carModification.click();
+        $x("//option[@value='26739']").click();//3.6 FSI 4motion (220 KW / 300 HP) (11/2011 - ...)
+
+        System.out.println("Click the search button");
+        btnCarSearch.click();
+
+        System.out.println("Checking the correct transition to the page");
+        $x("//h1[@class='title']//span[1]").shouldBe(visible);
+    }
+
+
+    public void checkingSelectorErrorTooltip(){
+        System.out.println("Without filling in the field, click on the Search button");
+        btnCarSearch.click();
+        System.out.println("Check for error message");
+        selectorErrorTooltip.shouldBe(visible);
+
+        System.out.println("Fill in the Mark field and click on the Search button");
+        carMark.click();
+        $x("//option[@value='121']").click();//VW
+        btnCarSearch.click();
+        System.out.println("Check for error message");
+        selectorErrorTooltip.shouldBe(visible);
+
+        System.out.println("Fill in the Brand, Model field and click on the Search button");
+        carMark.click();
+        $x("//option[@value='121']").click();//VW
+        carModel.click();
+        $x("//option[@value='10200']").click();//CC (358) (11/2011 - ...)
+        btnCarSearch.click();
+        System.out.println("Check for error message");
+        selectorErrorTooltip.shouldBe(visible);
+
+    }
 
 
     public void blockCheckBestSellers() {
+        System.out.println("Check block TOP");
+        tiresBlockTop.shouldBe(visible);
         System.out.println("Click on Best Sellers");
         bestSellers.click();
         System.out.println("Compare the number of elements");
@@ -47,11 +105,11 @@ public class MainPageTyres {
         System.out.println("Click on Popular tire sizes");
         popularTireSize.click();
         System.out.println("Click on size 195/65 R15");
-        size_1.click();
+        size_2.click();
         titleParameters.shouldHave(size(5));
 
         System.out.println("Click on size 205/55 R16");
-        size_2.click();
+        size_1.click();
         titleParameters.shouldHave(size(5));
 
         System.out.println("Click on size 175/65 R14");
