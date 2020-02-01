@@ -2,7 +2,6 @@ package TestsForTires;
 
 import PagesPKW.*;
 import com.codeborne.selenide.Condition;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TestAddToBasket extends BaseTest{
@@ -15,13 +14,7 @@ public class TestAddToBasket extends BaseTest{
     MainPagePKW mainPagePKW = new MainPagePKW();
     BasketPage basketPage = new BasketPage();
 
-    @DataProvider(name = "data-provider")
-    public Object[][] dataProviderData() {
-        return new Object[][]{
-                {"https://reifen.pkwteile.de/sommerreifen"},
-                {"https://reifen.pkwteile.at/mercedes-benz"},
-        };
-    }
+
 
     @Test(groups = {"Regression"})
     public void addToBasketFromBlockTop() {
@@ -33,18 +26,18 @@ public class TestAddToBasket extends BaseTest{
 
     }
 
-    @Test(groups = {"Regression"}, dataProvider = "data-provider")
-    public void addToBasketFromListing(String url) {
-        setUp.openUrl(url);
+    @Test(groups = {"Regression"})
+    public void addToBasketFromListing() {
+        setUp.openUrl("https://reifen.pkwteile.de/sommerreifen");
         help.closePopup(help.btnCookies);
         listingPage.addToBasket();
         basketPage.deleteFromBasket();
         mainPagePKW.mainBlockSearchCar.shouldBe(Condition.visible);
     }
 
-    @Test(groups = {"Regression"},dataProvider = "data-provider")
-    public void addToBasketFromProdPage(String url){
-        setUp.openUrl(url);
+    @Test(groups = {"Regression"})
+    public void addToBasketFromProdPage(){
+        setUp.openUrl("https://reifen.pkwteile.at/mercedes-benz");
         help.closePopup(help.btnCookies);
         productPage.addToBasketFromProdPage();
         basketPage.deleteFromBasket();

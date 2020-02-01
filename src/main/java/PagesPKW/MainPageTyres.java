@@ -12,6 +12,9 @@ public class MainPageTyres {
 
     ListingPage listingPage = new ListingPage();
     BasketPage basketPage = new BasketPage();
+    AllCarMakersPage allCarMakersPage = new AllCarMakersPage();
+    AllManufacturersPage allBrandsPage = new AllManufacturersPage();
+    AllTyresSizesPage allTyresSizesPage = new AllTyresSizesPage();
 
 
     private SelenideElement btnPKW = $x("//img[@class='tabs__icon__pkw']");
@@ -43,6 +46,54 @@ public class MainPageTyres {
     private SelenideElement carModification = $x("//select[@name='car_id']");
     private SelenideElement btnCarSearch = $x("//div[@class='mainblock-search__car ']//div[5]//span[1]");
     private SelenideElement selectorErrorTooltip = $x("//div[@class='popup-error-select validation-tooltip']");
+
+    private SelenideElement blockTopManufacturers = $x("//div[@class='featured_manufacturers']");
+    private SelenideElement btnAllTyreManufacturers = $x("//div[@class='type_list_all_brands']");
+    private ElementsCollection defaultManufacturers = $$x("//div[@class='featured_manufacturers']//div[2]/a");
+
+    private SelenideElement blockTopCarMakers = $x("//div[@class='listing_microdata bottom_box_mod listing_microdata--brand']");
+    private SelenideElement btnAllCarMakers = $x("//div[@id='content']/div[7]/a[@class='button']");
+    private ElementsCollection defaultCarMakers = $$x("//ul[@class='makers_block_bxslider']//li/a");
+
+    private SelenideElement seoBlockPopularTyreSize = $x("//div[@class='other_pr']");
+    private SelenideElement btnAllSize = $x("//div[@id='content']/div[8]/a[@class='button']");
+    private ElementsCollection topDiameter = $$x("//div[@class='zoll']//ul//li");
+    private ElementsCollection topTyresSize = $$x("//div[@class='other_pr']//div[2]//ul//li");
+
+
+    public void checkingSeoBlockPopularTyreSize(){
+        System.out.println("Checking the availability of the Popular Tyre Size block");
+        seoBlockPopularTyreSize.shouldBe(visible);
+        System.out.println("Checking the quantity of default Diameter in the inside of the block");
+        topDiameter.shouldHave(size(8));
+        System.out.println("Checking the quantity of default Tyres Size in the inside of the block");
+        topTyresSize.shouldHave(size(10));
+        System.out.println("Go to the page of All Size");
+        btnAllSize.click();
+        allTyresSizesPage.AllSizesBlock.shouldBe(visible);
+    }
+
+
+    public void checkingBlockTopCarMakers(){
+        System.out.println("Checking the availability of the Top Car Brand block");
+        blockTopCarMakers.shouldBe(visible);
+        System.out.println("Checking the quantity of default Car Brand in the inside of the block");
+        defaultCarMakers.shouldHave(size(8));
+        System.out.println("Go to the page of All Car Brand");
+        btnAllCarMakers.click();
+        allCarMakersPage.allCarMakersBlock.shouldBe(visible);
+    }
+
+
+    public void checkingBlockTopManufacturers(){
+        System.out.println("Checking the availability of the Top Manufacturers block");
+        blockTopManufacturers.shouldBe(visible);
+        System.out.println("Checking the quantity of default Manufacturers in the inside of the block");
+        defaultManufacturers.shouldHave(size(12));
+        System.out.println("Go to the page of all Manufacturers");
+        btnAllTyreManufacturers.click();
+        allBrandsPage.AllManufacturersBlock.shouldBe(visible);
+    }
 
 
     public void checkingSelectorFromCar() {
@@ -91,7 +142,7 @@ public class MainPageTyres {
     }
 
 
-    public void blockCheckBestSellers() {
+    public void checkingBlockBestSellers() {
         System.out.println("Check block TOP");
         tiresBlockTop.shouldBe(visible);
         System.out.println("Click on Best Sellers");
@@ -101,7 +152,7 @@ public class MainPageTyres {
     }
 
 
-    public void blockCheckPopularTireSizes() {
+    public void checkingBlockPopularTireSizes() {
         System.out.println("Click on Popular tire sizes");
         popularTireSize.click();
         System.out.println("Click on size 195/65 R15");
